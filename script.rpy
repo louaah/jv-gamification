@@ -1,0 +1,3 @@
+﻿#personnage 
+
+define joueur = 
