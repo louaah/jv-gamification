@@ -1,0 +1,8 @@
+define joueur = Character("Joueur")
+define partenaire = Character("Partenaire")
+define parents = Character("parents")
+define pere = Character("Père")
+define oncle = Character("Oncle")
+define pote = Character("Pote")
+define chef = Character("Chef")
+define vieille_dame = Character("Vieille dame")

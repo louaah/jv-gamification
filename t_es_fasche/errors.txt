@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "scenes/scene_ville_1.rpy", line 7: expected statement.
+    vieille_dame: "Ho mais bonjour ! Vous êtes prêt pour votre premier jour ?"
+                ^
+
+Ren'Py Version: Ren'Py 8.5.2.26010301
+Mon Apr 20 17:29:15 2026

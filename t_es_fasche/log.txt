@@ -1,0 +1,279 @@
+2026-04-20 15:25:17 UTC
+macOS-26.3.1-arm64-arm-64bit
+Ren'Py 8.5.2.26010301
+
+Early init took 54 ms
+Loading error handling took 97 ms
+Loading script took 223 ms
+Loading save slot metadata took 7 ms
+Loading persistent took 0 ms
+
+File "scenes/scene_non_1.rpy", line 11: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    return
+    ^
+
+File "scenes/scene_parlement_1.rpy", line 20: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "scenes/scene_parlement_1.rpy", line 21: expected statement.
+    "Oui":
+         ^
+
+File "scenes/scene_parlement_1.rpy", line 25: expected statement.
+    "Non":
+         ^
+
+File "scenes/scene_ville_1.rpy", line 7: expected statement.
+    vieille_dame : "Ho mais bonjour ! Vous êtes prêt pour votre premier jour ?"
+                 ^
+DPI scale factor: 1.000000
+Interface start took 1186 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1470, 956)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple M2'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1470, 'current_h': 956, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(2560, 1440)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 8 ms
+Loading error handling took 177 ms
+Loading script took 141 ms
+Loading save slot metadata took 25 ms
+Loading persistent took 0 ms
+
+File "scenes/scene_parlement_1.rpy", line 20: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "scenes/scene_parlement_1.rpy", line 21: expected statement.
+    "Oui":
+         ^
+
+File "scenes/scene_parlement_1.rpy", line 25: expected statement.
+    "Non":
+         ^
+
+File "scenes/scene_ville_1.rpy", line 7: expected statement.
+    vieille_dame : "Ho mais bonjour ! Vous êtes prêt pour votre premier jour ?"
+                 ^
+DPI scale factor: 1.000000
+Interface start took 158 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1470, 956)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple M2'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1470, 'current_h': 956, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(2560, 1440)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4 ms
+Loading error handling took 60 ms
+Loading script took 155 ms
+Loading save slot metadata took 2 ms
+Loading persistent took 0 ms
+
+File "scenes/scene_parlement_1.rpy", line 29: expected menuitem
+    return
+    ^
+
+File "scenes/scene_ville_1.rpy", line 7: expected statement.
+    vieille_dame : "Ho mais bonjour ! Vous êtes prêt pour votre premier jour ?"
+                 ^
+DPI scale factor: 1.000000
+Interface start took 52 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1470, 956)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple M2'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1470, 'current_h': 956, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(2560, 1440)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4 ms
+Loading error handling took 17 ms
+Loading script took 40 ms
+Loading save slot metadata took 2 ms
+Loading persistent took 0 ms
+
+File "scenes/scene_ville_1.rpy", line 7: expected statement.
+    vieille_dame : "Ho mais bonjour ! Vous êtes prêt pour votre premier jour ?"
+                 ^
+DPI scale factor: 1.000000
+Interface start took 51 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1470, 956)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple M2'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1470, 'current_h': 956, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(2560, 1440)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 18 ms
+Loading error handling took 100 ms
+Loading script took 142 ms
+Loading save slot metadata took 2 ms
+Loading persistent took 0 ms
+
+File "scenes/scene_ville_1.rpy", line 7: expected statement.
+    vieille_dame : "Ho mais bonjour ! Vous êtes prêt pour votre premier jour ?"
+                 ^
+DPI scale factor: 1.000000
+Interface start took 52 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1470, 956)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple M2'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1470, 'current_h': 956, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(2560, 1440)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4 ms
+Loading error handling took 16 ms
+Loading script took 37 ms
+Loading save slot metadata took 2 ms
+Loading persistent took 0 ms
+
+File "scenes/scene_ville_1.rpy", line 7: expected statement.
+    vieille_dame: "Ho mais bonjour ! Vous êtes prêt pour votre premier jour ?"
+                ^
+DPI scale factor: 1.000000
+Interface start took 51 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1470, 956)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple M2'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1470, 'current_h': 956, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(2560, 1440)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4 ms
+Loading error handling took 17 ms
+Loading script took 39 ms
+Loading save slot metadata took 2 ms
+Loading persistent took 0 ms
+
+File "scenes/scene_ville_1.rpy", line 7: expected statement.
+    vieille_dame : "Ho mais bonjour ! Vous êtes prêt pour votre premier jour ?"
+                 ^
+DPI scale factor: 1.000000
+Interface start took 51 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1470, 956)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple M2'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1470, 'current_h': 956, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(2560, 1440)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4 ms
+Loading error handling took 17 ms
+Loading script took 41 ms
+Loading save slot metadata took 2 ms
+Loading persistent took 0 ms
+
+File "scenes/scene_ville_1.rpy", line 7: expected statement.
+    vieille dame: "Ho mais bonjour ! Vous êtes prêt pour votre premier jour ?"
+                ^
+DPI scale factor: 1.000000
+Interface start took 54 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1470, 956)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple M2'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1470, 'current_h': 956, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(2560, 1440)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 9 ms
+Loading error handling took 75 ms
+Loading script took 141 ms
+Loading save slot metadata took 2 ms
+Loading persistent took 0 ms
+
+File "scenes/scene_ville_1.rpy", line 7: expected statement.
+    vieille_dame: "Ho mais bonjour ! Vous êtes prêt pour votre premier jour ?"
+                ^
+DPI scale factor: 1.000000
+Interface start took 80 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1470, 956)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple M2'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1470, 'current_h': 956, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(2560, 1440)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 98 ms
+Loading script took 192 ms
+Loading save slot metadata took 2 ms
+Loading persistent took 0 ms
+Running init code took 203 ms
+Loading analysis data took 2 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 1 ms
+Backing up script files to '/Users/kimdefferrard/Library/RenPy/backups/t_es_fasche':
+Dump and make backups took 23 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 17 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 351 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1470, 956)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple M2'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1470, 'current_h': 956, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1368, 770) drawable=(2736, 1540)
+Maximum texture size: 4096x4096

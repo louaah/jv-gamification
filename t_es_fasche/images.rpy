@@ -1,0 +1,11 @@
+image parlement = "parlement.png"
+image ville = "ville.png"
+image maison = "maison.png"
+
+image partenaire = "partenaire.png"
+image mere = "mere.png"
+image pere = "pere.png"
+image oncle = "oncle.png"
+image pote = "pote.png"
+image chef = "chef.png"
+image vieille_dame = "vieille_dame.png"
