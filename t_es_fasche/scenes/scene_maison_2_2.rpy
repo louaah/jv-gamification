@@ -1,4 +1,4 @@
-label scene_maison_2:
+label scene_maison_2_2:
     # play music "music_maison.mp3"
 
     scene maison
@@ -13,9 +13,10 @@ label scene_maison_2:
     "Mais c’est vrai que les discussions autour de la table ne sont pas toujours simples. Heureusement que j’ai du caractère pour leur tenir tête. Bon maintenant, qu’ils sont partis, tu peux me raconter dans les détails comment s'est passé ta journée ! "
 menu:
     "Parler de la votation":
-        fascho += 1
-            $ fascho = 0
-    "Parler de sa discussion avec l'ami au parlement":
-            $ fascho = 0
+        $ fascho += 1
+        jump scene_maison_3
+    "Ne pas parler de la votation":
+        $ fascho = 0
+        jump scene_maison_3
 
 return

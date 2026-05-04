@@ -3,7 +3,13 @@ label scene_ville_2:
 
     scene ville
 
-    "bla bla bla"
+    show vieille_dame at right
+
+    vieille_dame "Bonjour !  Vous avez vu ces longues queues?"
+    "Lorsque j’ai voté pour vous c’était pas ce que j'espérais voir !"
+    "La situation ne fait que se détériorer, vous voyez la, cette personne…. Non, non l’autre plus…enfin vous voyez, bah elle m’a pris le dernier rouleau de PQ SOUS MON NEZ."
+    "Vous vous rendez compte de l’audace? Cela devient n’importe quoi, ils ne respectent rien. Allez vite travailler !"
+
 
     # menu:
     #     "Choix 1":
@@ -13,4 +19,7 @@ label scene_ville_2:
     #     "Choix 2":
     #         $ loi = False
 
-    return
+    jump scene_parlement_2
+    
+
+return

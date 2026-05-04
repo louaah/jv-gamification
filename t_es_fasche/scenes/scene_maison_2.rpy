@@ -35,7 +35,7 @@ label scene_maison_2:
     #
     #     "Choix 2":
     #         $ loi = False
-    jump scene_maison2_2
+    jump scene_maison_2_2
     
 
 return
