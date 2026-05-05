@@ -20,5 +20,7 @@ label start:
     call scene_maison_5_2
     call scene_maison_5_3
     call scene_maison_6
+    call scene_ville_4
+    call scene_parlement_4
     
     return
