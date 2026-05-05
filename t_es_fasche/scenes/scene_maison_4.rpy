@@ -12,11 +12,11 @@ label scene_maison_4:
 
 
     menu:
-        "Parler des amis du parlement":
+        "Parler de l'ami du parlement":
             $ fascho += 1
             jump scene_maison_5
             
-        "Ne pas parler des amis du parlement ":
+        "Ne pas parler de l'ami du parlement ":
             jump scene_maison_5
             
 
