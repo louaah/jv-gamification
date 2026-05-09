@@ -5,14 +5,14 @@ label scene_maison_2:
     show partenaire at right
 
     partenaire "Hey Amour ! Alors ce premier jour ? Tu as survécu-e?"
-    "Tu arrives pile à temps, tes parents sont censés arriver dans 10 minutes. Oui, non , t'inquiète pas, j’ai fait une recette végétarienne et pas végan, ça ne les empêchera pas de râler tu sais. Donc bon, un peu plus, un peu moins…Je veux bien faire des compromis, mais faut pas abuser non plus. "
-    "Allez, va te doucher avant qu’ils arrivent, ça sent que tu as bossé dur aujourd’hui !"
+    partenaire "Tu arrives pile à temps, tes parents sont censés arriver dans 10 minutes. Oui, non , t'inquiète pas, j’ai fait une recette végétarienne et pas végan, ça ne les empêchera pas de râler tu sais. Donc bon, un peu plus, un peu moins…Je veux bien faire des compromis, mais faut pas abuser non plus. "
+    partenaire"Allez, va te doucher avant qu’ils arrivent, ça sent que tu as bossé dur aujourd’hui !"
 
     show parents at left
 
     parents "Ha mais quel charisme sur cette affiche ! Tu m’étonnes que tout le monde ait voté pour toi. Nous sommes extrêmement fiers !"
-    "Oui, avec tout ce travail maintenant tu dois être fatigué-e, ça va tu manges bien? Je t’ai ramené un tupperwares de bœuf wegllinton. "
-    "Non, mais je sais que tu manges plus trop de viande…mais cela ne t’as jamais dérangé quand tu vivais à la maison…et tu as besoin d’énergie pour changer le pays!"
+    parents"Oui, avec tout ce travail maintenant tu dois être fatigué-e, ça va tu manges bien? Je t’ai ramené un tupperwares de bœuf wegllinton. "
+    parents"Non, mais je sais que tu manges plus trop de viande…mais cela ne t’as jamais dérangé quand tu vivais à la maison…et tu as besoin d’énergie pour changer le pays!"
 
     partenaire "ha je ne vous avais pas entendu, alors comment cela fait d’avoir un enfant au parlement?"
 
@@ -24,17 +24,9 @@ label scene_maison_2:
 
     partenaire "Oui, mais il ne faut pas oublier de soutenir le peuple non plus ! Ha, le repas est prêt, nous allons pouvoir passer à table."
 
+    hide parents
+    hide partenaire
 
-
-
-
-    # menu:
-    #     "Choix 1":
-    #         $ fascho += 1
-    #         $ loi = True
-    #
-    #     "Choix 2":
-    #         $ loi = False
     jump scene_maison_2_2
     
 

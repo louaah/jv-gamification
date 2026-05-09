@@ -3,7 +3,7 @@ label scene_parlement_2:
 
     scene parlement
 
-    if fascho>=1:
+    if fascho >= 1:
         show pote at right
         pote "Hey salut compatriote, ou devrais-je dire camarade? La présidente a vraiment de bonnes idées, mais elles ne sont pas faciles à mettre en place. Surtout avec les autres là, déjà qu’ils n’arrivent même pas à se mettre d’accord entre eux, maintenant ils viennent ralentir nos plans de sauvetage. Avec la votation d’aujourd’hui cela devrait aller mieux ! Je compte sur toi, camarade !"
     else:
@@ -15,15 +15,17 @@ label scene_parlement_2:
     chef "La votation du jour est a propos de bla bla bla "
     "À votre tour de donner vos avis maintenant en votant oui ou non..."
 
+    hide chef
+
    
 
     menu:
         "Oui":
             $ fascho += 1
             $ loi = True
-            jump scene_oui_2
+            jump scene_apres_vote_2
         "Non":
             $ loi = False
-            jump scene_non_2
+            jump scene_apres_vote_2
 
 return

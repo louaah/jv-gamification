@@ -10,7 +10,9 @@ label scene_maison_2_2:
     show partenaire at right 
 
     partenaire "Hahaha, toujours un sacré tact tes parents, on sait de qui tu tiens tes talents en politique. Non, je ne le prends pas mal, je sais qu’on est de génération différente, déjà, ils ont arrêté de me mègenré, c’est un début. Ça viendra avec le temps. Bon j’avoue que le coup du tuperweares pleins de viande, c’est une nouveauté…."
-    "Mais c’est vrai que les discussions autour de la table ne sont pas toujours simples. Heureusement que j’ai du caractère pour leur tenir tête. Bon maintenant, qu’ils sont partis, tu peux me raconter dans les détails comment s'est passé ta journée ! "
+    partenaire "Mais c’est vrai que les discussions autour de la table ne sont pas toujours simples. Heureusement que j’ai du caractère pour leur tenir tête. Bon maintenant, qu’ils sont partis, tu peux me raconter dans les détails comment s'est passé ta journée ! "
+
+    hide partenaire
 menu:
     "Parler de la votation":
         $ fascho += 1
