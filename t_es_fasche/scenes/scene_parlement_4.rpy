@@ -10,7 +10,7 @@ label scene_parlement_4:
     elif fascho == 2:
         show pote at right
         pote "Bonjour ! Cela fait plaisir de vous voir aujourd’hui, le projet que nous allons voter est magnifique ! Notre patrie n’en sera qu'embellir après cette votation. Je ne vois aucune raison de voter contre, réfléchissez bien à l’avenir."
-    elif fascho >=3
+    elif fascho >=3 :
         show pote at right
         pote "Bonjour Camarade ! Quel plaisir de vous voir, la votation d’aujourd’hui représente l’un des plus beaux projets de notre patrie ! Avec cela, nous promettons un avenir radieux à nos compatriotes. Je sais que je peux compter sur vous. Nous irons loin ensemble !"
 
