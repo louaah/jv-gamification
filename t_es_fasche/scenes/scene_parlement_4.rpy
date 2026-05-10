@@ -29,7 +29,16 @@ label scene_parlement_4
     if fascho >= 3 :
         show chef at right 
         chef "Camarade? Qu’est ce qu’il vous arrive? Ce n’est pas le moment de vous dégonfler. Nous comptons sur vous. C’est votre seul avertissement, au prochaine votation, vos actions auront des conséquences."
+    hide chef 
+
+    show chef at right
+    chef "show chef at right 
+    chef "La votation du jour est a propos de bla bla bla "
+    "À votre tour de donner vos avis maintenant en votant oui ou non..."
+
     hide chef
+
+
 
     menu:
         "Oui":

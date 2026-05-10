@@ -22,5 +22,8 @@ label start:
     call scene_apres_vote_4
     call scene_maison_6_2
     call scene_maison_7
+    call scene_ville_5
+    call scene_parlement_5
+    call scene_fin
     
     return
