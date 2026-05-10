@@ -1,4 +1,4 @@
-label scene_maison_7
+label scene_maison_7:
     # play music "music_maison.mp3"
 
     scene maison

@@ -31,7 +31,7 @@ label scene_maison_6_2:
             $ fascho +=1
             jump scene_maison_7
         
-        "S'excuser et aller se coucher."
+        "S'excuser et aller se coucher." :
             jump scene_maison_7
 
 

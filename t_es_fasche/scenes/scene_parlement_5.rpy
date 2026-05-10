@@ -1,5 +1,5 @@
-label scene_parlement_5
-:
+label scene_parlement_5:
+
     # play music "music_parlement.mp3"
 
     scene parlement

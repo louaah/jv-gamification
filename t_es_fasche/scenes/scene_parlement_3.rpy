@@ -9,7 +9,7 @@ label scene_parlement_3:
     elif fascho ==2:
         show pote at right
         pote "Bonjour collègue ! Vous êtes sur la bonne voie, vous vous êtes bien renseigné sur la votation du jour? Je sais que je peux vous faire confiance pour fairele bon choix !"
-    else 
+    else :
         show pote at right
         pote "Camarade ! Quel plaisir de vous voir, c’est une belle journée pour prendre de belles décisions. J’ai parlé de vous à la présidente, elle est intéressée à vous rencontrer ! Continuer sur cette voie et se sera pour bientôt."
     

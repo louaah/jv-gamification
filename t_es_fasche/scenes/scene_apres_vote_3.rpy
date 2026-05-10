@@ -7,7 +7,7 @@ label scene_apres_vote_3:
             pote "Quel honneur de faire partie de vos collègues, camarade. Je vous présente Miormia Geloni, notre chère présidente."
             hide pote
             show chef at left
-            chef : "Bonjour Camarade, Potofasho m'a parlé de vous en haute estime. Il a bon espoir pour votre future carrière, il faut dire qu'elle est impeccable jusqu'à présent. À la prochaine votation, nous organisons un repas pour nos plus fidèles partisans. Continuez ainsi et vous serez le bienvenu."
+            chef  "Bonjour Camarade, Potofasho m'a parlé de vous en haute estime. Il a bon espoir pour votre future carrière, il faut dire qu'elle est impeccable jusqu'à présent. À la prochaine votation, nous organisons un repas pour nos plus fidèles partisans. Continuez ainsi et vous serez le bienvenu."
             hide chef
         else:
             show pote at right
