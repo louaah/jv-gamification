@@ -13,7 +13,9 @@ label scene_ville_4:
 
     parents "Tu vois, même madame le dit, les enfants c’est la vie ! Ce projet est vraiment idéal dans la situation actuelle, cela redonnera de l'espoir au peuple. Tu devrais te dépêcher pour ne pas être en retard."
     
-
+    hide parents
+    hide vieille_dame
+    
     jump scene_parlement_4
 
-    return
+return
