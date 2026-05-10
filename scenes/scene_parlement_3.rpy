@@ -1,0 +1,37 @@
+label scene_parlement_3:
+    # play music "music_parlement.mp3"
+
+    scene parlement
+
+    if fascho ==1:
+        show pote at right
+        pote "Bonjour collègue, j’espère que vous vous êtes bien renseigné pour la votation d’aujourd’hui. Je compte sur vous pour prendre la bonne décision, les choix ont des conséquences vous savez?"
+    elif fascho ==2:
+        show pote at right
+        pote "Bonjour collègue ! Vous êtes sur la bonne voie, vous vous êtes bien renseigné sur la votation du jour? Je sais que je peux vous faire confiance pour fairele bon choix !"
+    else :
+        show pote at right
+        pote "Camarade ! Quel plaisir de vous voir, c’est une belle journée pour prendre de belles décisions. J’ai parlé de vous à la présidente, elle est intéressée à vous rencontrer ! Continuer sur cette voie et se sera pour bientôt."
+    
+    hide pote 
+    show chef at right 
+    chef "Réunion d’urgence aujourd’hui, comme vous avez pû le voir ces derniers jours, les manifestants cassent et font peur à la population. Les médias les entraînent dans cette spirale de violence en propageant des fake news à notre sujet." 
+    chef "Il faut mettre un terme à cette violence et engager une milice qui s’occupe de faire régner l’ordre et protéger nos honnêtes citoyens."
+
+   
+
+    menu:
+        "{b}Supprimer les médias problématiques et créer une milice armée pour lutter contre les casseurs.{/b}"
+        "Oui":
+            $ fascho += 1
+            $ loi = True
+            $ lois.append("media")
+            $ lois_status.append("oui")
+            jump scene_apres_vote_3
+        "Non":
+            $ loi = False
+            $ lois.append("media")
+            $ lois_status.append("non")
+            jump scene_apres_vote_3
+
+return
