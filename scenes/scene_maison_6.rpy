@@ -4,10 +4,10 @@ label scene_maison_6:
     scene maison
     show partenaire at right
 
-    partenaire "Bonjour, il y a du café sur la table. Ha oui, je suis déjà debout… le chômage ça ne me réussit pas, je m’ennuie." 
-    partenaire "Depuis qu’ils ont fermé le département dans lequel je travaille, je me sens vraiment inutile. Il faut que je retrouve du travail, je me dis qu’avec le projet de loi actuel, cela va ouvrir pleins de postes !"
+    partenaire "Bonjour Amour... le café est prêt. Oui, je suis déjà debout… le chômage ça ne me réussit pas..." 
+    partenaire "Depuis qu’ils ont fermé le département où travaillao, je me sens inutile. Il faut que je retrouve du travail, avec le projet de loi, cela va ouvrir pleins de postes !"
     partenaire "Je garde espoir, c’est bien de s'occuper des enfants et des familles. "
-    partenaire "Par contre, j’avoue que je ne comprend pas tout à fait tous les tenants et aboutissants de ce projet, il a à la fois l’air génial, mais cette histoire de protection de l’identité de chacun est un peu étrange. Je me demande comment cela va être mis en place."
+    partenaire "J’avoue que je ne comprend pas tout les détails de ce projet. Il a l’air génial, mais cette histoire de protection de l’identité de chacun est étrange."
     partenaire "Allez file, c'est l’heure ! "
 
     hide partenaire

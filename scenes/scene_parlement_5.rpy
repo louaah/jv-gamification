@@ -13,7 +13,7 @@ label scene_parlement_5:
     elif loi and fascho <= 4:
         show chef at right 
         chef "Bonjour mon “cher” camarade, comment ça va aujourd’hui ? C’est une belle journée qui se profile pour nous."
-        chef "Je compte sur toi pour les votations aujourd’hui. On pourra à nouveau “travailler” tard ce soir…après le banquet pour fêter notre victoire bien sûr."
+        chef "Je compte sur toi aujourd’hui. On pourra à nouveau “travailler” tard ce soir…après le banquet pour fêter notre victoire bien sûr."
         hide chef 
 
     show chef at right 

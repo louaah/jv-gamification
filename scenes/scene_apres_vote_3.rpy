@@ -1,4 +1,5 @@
 label scene_apres_vote_3:
+    # Ici avec l'asset il faudrait dans tout les cas que la présidetne soit à coté de potofasho sinon le scripts marche pas le jours d'après.
 
     if loi:
         scene parlement
@@ -7,7 +8,8 @@ label scene_apres_vote_3:
             pote "Quel honneur de faire partie de vos collègues, camarade. Je vous présente Miormia Geloni, notre chère présidente."
             hide pote
             show chef at left
-            chef  "Bonjour Camarade, Potofasho m'a parlé de vous en haute estime. Il a bon espoir pour votre future carrière, il faut dire qu'elle est impeccable jusqu'à présent. À la prochaine votation, nous organisons un repas pour nos plus fidèles partisans. Continuez ainsi et vous serez le bienvenu."
+            chef  "Bonjour Camarade, Potofasho m'a parlé de vous en haute estime. Il a bon espoir pour votre future carrière, elle est impeccable jusqu'à présent."
+            chef " Continuez ainsi et vous serez le bienvenu au repas pour nos plus fidèles partisans"
             hide chef
         else:
             show pote at right
@@ -22,7 +24,7 @@ label scene_apres_vote_3:
             hide pote 
         else:
             show pote at right
-            pote "Je peux comprendre les fois précédentes, mais votre incompréhension des enjeux semble devenir systématique, collègue… Si j'étais vous, je ferais attention à mes décisions."
+            pote "Je peux comprendre les fois précédentes, mais votre incompréhension des enjeux semble devenir systématique, collègue… Si j'étais vous, je ferais attention à mes décisions..."
             hide pote
     
     jump scene_maison_5_2

@@ -5,12 +5,14 @@ label scene_parlement_2:
 
     if fascho >= 1:
         show pote at right
-        pote "Hey salut compatriote, ou devrais-je dire camarade? La présidente a vraiment de bonnes idées, mais elles ne sont pas faciles à mettre en place."
-        pote "Surtout avec les autres là, déjà qu’ils n’arrivent même pas à se mettre d’accord entre eux, maintenant ils viennent ralentir nos plans de sauvetage. Avec la votation d’aujourd’hui cela devrait aller mieux ! Je compte sur toi, camarade !"
+        pote "Salut compatriote, ou devrais-je dire camarade? La présidente a de bonnes idées, mais elles ne sont pas faciles à mettre en place."
+        pote "Surtout avec les autres là, déjà qu’ils n’arrivent même pas à se mettre d’accord entre eux, ils viennent ralentir nos plans de sauvetage." 
+        pote "Avec la votation d’aujourd’hui cela devrait aller mieux ! Je compte sur toi, camarade !"
     else:
         show pote at right
-        pote "Bonjour cher collègue, nous avons de grands projets aujourd’hui !  La présidente a vraiment de bonnes idées, mais elles ne sont pas faciles à mettre en place."
-        pote "Surtout avec les autres là, déjà qu’ils n’arrivent même pas à se mettre d’accord entre eux, maintenant ils viennent ralentir nos plans de sauvetage. Je compte sur toi pour faire le bon choix !"
+        pote "Bonjour cher collègue, nous avons de grands projets aujourd’hui !  La présidente a de bonnes idées, mais elles ne sont pas faciles à mettre en place."
+        pote "Surtout avec les autres là, déjà qu’ils n’arrivent même pas à se mettre d’accord entre eux, maintenant ils viennent ralentir nos plans de sauvetage. "
+        pote "Je compte sur toi pour faire le bon choix !"
 
     hide pote 
     show chef at right 

@@ -3,7 +3,7 @@ label scene_apres_vote_1:
     if loi:
         scene parlement
         show pote at right
-        pote "Hey compatriote ! Je savais qu’on était sur la même longueur d’onde. On va enfin pouvoir améliorer rapidement la situation. Ça fait plaisir d’avoir quelqu’un sur qui je peux compter ! "
+        pote "Compatriote ! Je savais qu’on était sur la même longueur d’onde. On va pouvoir améliorer rapidement la situation. Ça fait plaisir d’avoir quelqu’un sur qui je peux compter ! "
         hide pote
 
     else:

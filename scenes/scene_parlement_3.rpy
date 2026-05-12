@@ -5,13 +5,13 @@ label scene_parlement_3:
 
     if fascho ==1:
         show pote at right
-        pote "Bonjour collègue, j’espère que vous vous êtes bien renseigné pour la votation d’aujourd’hui. Je compte sur vous pour prendre la bonne décision, les choix ont des conséquences vous savez?"
+        pote "Bonjour collègue, vous êtes vous bien renseigné ? Je compte sur vous pour prendre la bonne décision, les choix ont des conséquences vous savez?"
     elif fascho ==2:
         show pote at right
-        pote "Bonjour collègue ! Vous êtes sur la bonne voie, vous vous êtes bien renseigné sur la votation du jour? Je sais que je peux vous faire confiance pour fairele bon choix !"
+        pote "Bonjour collègue ! Vous êtes sur la bonne voie, vous vous êtes bien renseigné? Je peux vous faire confiance pour faire le bon choix !"
     else :
         show pote at right
-        pote "Camarade ! Quel plaisir de vous voir, c’est une belle journée pour prendre de belles décisions. J’ai parlé de vous à la présidente, elle est intéressée à vous rencontrer ! Continuer sur cette voie et se sera pour bientôt."
+        pote "Camarade ! C’est une belle journée pour de belles décisions. J’ai parlé de vous à la présidente, elle souhaites vous rencontrer ! Continuer sur cette voie et se sera pour bientôt."
     
     hide pote 
     show chef at right 
