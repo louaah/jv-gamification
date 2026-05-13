@@ -1,0 +1,45 @@
+2026-05-13 14:11:26 UTC
+Windows-11-10.0.26200-SP0
+Ren'Py 8.5.3.26051002+nightly
+
+Early init took 35 ms
+Loading error handling took 16 ms
+Loading script took 130 ms
+Loading save slot metadata took 17 ms
+Loading persistent took 0 ms
+Running init code took 30 ms
+Loading analysis data took 4 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 6 ms
+Backing up script files to 'C:\\Users\\ewank\\AppData\\Roaming/RenPy/backups\\Fascho':
+Dump and make backups took 31 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 51 ms
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 2 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 7 ms
+Save screen analysis took 9 ms
+Save pyanalysis took 0 ms
+Save bytecode took 19 ms
+Running _start took 1 ms
+Interface start took 495 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3440, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'ATI Technologies Inc.'
+Renderer: 'AMD Radeon RX 5700 XT'
+Version: '4.6.0 Compatibility Profile Context 26.5.1.260407'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 3440, 'current_h': 1440, 'refresh_rate': 180, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1368, 770) drawable=(1368, 770)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(3440, 1369) drawable=(3440, 1369)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=1369, mod=0, size=(3440, 1369), w=3440)>

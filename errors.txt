@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scenes/scene_fin_fascho5.rpy", line 30: end of line expected.
+    show text "{size=80}Vous rentrez du parlement, et sur le chemin du retour, vous voyez Potofascho dans une luxueuse Merco{/size}" at truecenter with fade""
+                                                                                                                                                            ^
+
+Ren'Py Version: Ren'Py 8.5.3.26051002+nightly
+Wed May 13 15:37:17 2026
