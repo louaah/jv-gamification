@@ -2,13 +2,13 @@ label scene_fin:
 
     if loi:
         scene parlement
-        show pote at right
+        show pote at Position (xalign=0.75, yalign =0.5)
         pote "Hey compatriote ! Je savais qu’on était sur la même longueur d’onde. On va enfin pouvoir améliorer rapidement la situation. Ça fait plaisir d’avoir quelqu’un sur qui je peux compter ! "
         hide pote
 
     else:
         scene parlement
-        show pote at right
+        show pote at Position (xalign=0.75, yalign =0.5)
         pote "Je suis surpris par ton vote, je pensais qu’on était sur la même longueur d’onde. Heureusement, la votation est quand même passée et la présidente va rapidement pouvoir améliorer la situation."
         hide pote
     

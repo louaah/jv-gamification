@@ -2,7 +2,7 @@ label scene_maison_1:
     # play music "music_maison.mp3"
 
     scene maison
-    show partenaire at right
+    show partenaire at Position (xalign=0.75, yalign =0.5)
 
     partenaire "Hey, mais tu es déjà debout ? Le stress a fini par monter alors !"
     partenaire"Il est tôt, profites que je te fasse un café. C'est dingue que tu commences à bosser au parlement !"
