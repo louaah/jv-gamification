@@ -2,7 +2,9 @@ label scene_maison_3:
     # play music "music_maison.mp3"
 
     scene maison
-    show partenaire at right
+    show partenaire at Position (xalign=0.75, yalign =0.5)
+
+
 
     partenaire "Coucou Amour, Cela fait déjà un mois que tu as commencé ! Il y’a à nouveau une session de vote importante !"
     partenaire "Je comprends la présidente, elle essaie de bien faire, cela doit être frustrant d’être à sa place.""
@@ -12,16 +14,6 @@ label scene_maison_3:
 
     hide partenaire
 
-
-
-
-    # menu:
-    #     "Choix 1":
-    #         $ fascho += 1
-    #         $ loi = True
-    #
-    #     "Choix 2":
-    #         $ loi = False
     jump scene_ville_2
     
 

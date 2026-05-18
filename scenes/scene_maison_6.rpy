@@ -2,7 +2,8 @@ label scene_maison_6:
     # play music "music_maison.mp3"
 
     scene maison
-    show partenaire at right
+    show partenaire at Position (xalign=0.75, yalign =0.5)
+
 
     partenaire "Bonjour Amour... le café est prêt. Oui, je suis déjà debout… le chômage ça ne me réussit pas..." 
     partenaire "Depuis qu’ils ont fermé le département où travaillao, je me sens inutile. Il faut que je retrouve du travail, avec le projet de loi, cela va ouvrir pleins de postes !"

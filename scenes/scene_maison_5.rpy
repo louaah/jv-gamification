@@ -2,7 +2,8 @@ label scene_maison_5:
     # play music "music_maison.mp3"
 
     scene maison
-    show partenaire at right
+    show partenaire at Position (xalign=0.75, yalign =0.5)
+
 
     partenaire "Ces mois sont difficile au travail... il y’a beaucoup de choses à couvrir et beaucoup de pression."
     partenaire "Les manifestations ne font qu'empirer, je travaillais dessus, mais mon patron m’a demandé de m’occuper d’un article sur le retour du PQ au supermarché…"

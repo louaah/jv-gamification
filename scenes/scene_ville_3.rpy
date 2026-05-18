@@ -3,7 +3,7 @@ label scene_ville_3:
 
     scene ville
 
-    show vieille_dame at right
+    show vieille_dame at Position (xalign=0.75, yalign =0.5)
 
     
     vieille_dame "Regardez moi tous ces gens, ils ont rien d’autre à faire ? Ils devraient travailler ! Ils sont en train de tout casser et de mettre des autocollants PARTOUT."

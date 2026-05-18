@@ -3,7 +3,7 @@ label scene_ville_2:
 
     scene ville
 
-    show vieille_dame at right
+    show vieille_dame at Position (xalign=0.75, yalign =0.5)
 
     vieille_dame "Bonjour ! Vous avez vu ces longues queues?"
     vieille_dame "Lorsque j’ai voté pour vous c’était pas ce que j'espérais voir !"

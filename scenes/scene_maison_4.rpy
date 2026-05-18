@@ -2,7 +2,9 @@ label scene_maison_4:
     # play music "music_maison.mp3"
 
     scene maison
-    show partenaire at right
+    show partenaire at Position (xalign=0.75, yalign =0.5)
+
+    
 
     partenaire "Alors cette votation ?"
     partenaire "Ca doit pas être facile de prendre de telles décisions. Heureusement que tu travailles déjà au parlement, comme ça tu pourras à nouveau être élu avec ce nouveau texte."
@@ -17,10 +19,10 @@ label scene_maison_4:
     menu:
         "Parler de notre pote du parlement":
             $ fascho += 1
-            jump scene_maison_5
+            jump scene_intermédiaire_2
             
         "Fuir en s'excusant d'un besoin pressant":
-            jump scene_maison_5
+            jump scene_intermédiaire_2
             
 
     

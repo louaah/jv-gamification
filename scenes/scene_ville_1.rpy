@@ -2,7 +2,7 @@ label scene_ville_1:
     # play music "music_ville.mp3"
 
     scene ville
-    show vieille_dame at right
+    show vieille_dame at Position (xalign=0.75, yalign =0.5)
 
     vieille_dame "Mais bonjour ! Prêts pour votre premier jour ?"
     vieille_dame "Je suis contente que quelqu’un de notre quartier ait été élu. Vous avez beaucoup de charme sur votre affiche (wink wink)."
